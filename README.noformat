@@ -1,0 +1,8 @@
+
+
+Updating pip libs:
+
+  Split anything over 20MB into 20MB chunks
+
+    split -b 20000000 $FILE ${FILE}.part
+
